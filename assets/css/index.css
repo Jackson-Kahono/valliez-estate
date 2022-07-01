@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+.container{
+     margin: -7px;
+}
+
+.header{
+     display: flex;
+     justify-content: space-around;
+     padding: 1em;
+}
+.header div{
+     display: flex;
+     justify-content: space-around;
+    
+}
+.header li{
+     list-style:none;
+     margin-left:2em;
+     font-family: 'Space Grotesk';
+}
+.header li:hover{
+     color:#2549D3;
+}
+.header .name{
+     font-family: 'Oleo script';
+     font-size: 1.5em;
+}
+.header .btn{
+     color:#FAFAFA;
+     background-color: #2549D3;
+     font-family: 'Space Grotesk';
+     padding: 0.7em;
+     border-radius:5px;
+
+
+     /* background-color: #0F298B; */
+     /* background-color: #FAFAFA; */
+}
+.header .list{
+     display: flex;
+     justify-content: space-around;
+     padding-top:0.5em;
+}

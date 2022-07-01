@@ -123,3 +123,14 @@
      background-color: #0F298B;
      border-radius: 5px;
 }
+
+h2{
+     color:#0F298B;
+     font-family: 'Space Grotesk';
+     position: relative;
+     left:10vw;
+     margin-top:10vh;
+}
+.wr{
+     text-align: center;
+}

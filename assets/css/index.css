@@ -124,7 +124,7 @@
      border-radius: 5px;
 }
 
-h2{
+h2.prod{
      color:#0F298B;
      font-family: 'Space Grotesk';
      position: relative;
@@ -132,5 +132,9 @@ h2{
      margin-top:10vh;
 }
 .wr{
+     font-family: 'Space Grotesk';
      text-align: center;
+}
+.wr h2{
+     color:#0F298B;
 }

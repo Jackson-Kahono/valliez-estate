@@ -55,13 +55,15 @@
 /*===========================================================================*/
 .description{
      display: flex;
-     margin: auto;
-     width: fit-content;
+     justify-content: space-evenly;
+     margin-top: 3vh;
+     margin-bottom:10vh;
+     
 }
 
 .description div{
      width:35vw;
-     margin: 1em;
+     /* margin: 1em; */
 
 }
 
@@ -70,8 +72,8 @@
      height:100%;
 } */
 .description img{
-     width:35vw;
-     height:30vw;
+     width:40vw;
+     height:25vw;
      object-fit: fill;
 }
 .description .txt{

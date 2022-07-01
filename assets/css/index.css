@@ -5,6 +5,10 @@
      margin: -7px;
 }
 
+
+/*===========================================================================*/
+/*                       STYLING FOR HEADER                                  */
+/*===========================================================================*/
 .header{
      display: flex;
      justify-content: space-around;
@@ -18,7 +22,8 @@
 }
 .header li{
      list-style:none;
-     margin-left:2em;
+     margin-right:1em;
+     margin-left: 1em;
      font-family: 'Space Grotesk';
 }
 .header li:hover{
@@ -43,4 +48,76 @@
      display: flex;
      justify-content: space-around;
      padding-top:0.5em;
+}
+
+/*===========================================================================*/
+/*                      STYLING FOR DESCRIPTION                              */
+/*===========================================================================*/
+.description{
+     display: flex;
+     margin: auto;
+     width: fit-content;
+}
+
+.description div{
+     width:35vw;
+     margin: 1em;
+
+}
+
+/* .description div img{
+     width:100%;
+     height:100%;
+} */
+.description img{
+     width:35vw;
+     height:30vw;
+     object-fit: fill;
+}
+.description .txt{
+     font-family: 'Space Grotesk';
+     font-size: 1.5vw;
+}
+.description .txt p:first-child{
+     color: #0F298B;
+     font-size: 3vw;
+     font-weight: 600;
+     word-wrap: break-word;
+}
+.description .txt i{
+     color: #0F298B;
+     padding: 1em;
+     font-size: 3vw;
+}
+.txt span{
+     color:#FAFAFA;
+     font-weight: 600;
+     padding: 0.5em;
+     background-color: #0F298B;
+     border-radius: 5px;
+}
+.filter{
+     width:70vw;
+     height:70px;
+     font-family: 'Space Grotesk';
+     display: flex;
+     justify-content: space-around;
+     padding-top: 1.5em;
+     margin: auto;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     border-radius: 10px;
+}
+.filter li{
+     list-style:none;
+}
+.filter li:first-child{
+     color: #0F298B;
+     font-weight: 600;
+}
+.filter span{
+     color:#FAFAFA;
+     font-weight: 600;
+     padding: 0.5em 3em;
+     background-color: #0F298B;
+     border-radius: 5px;
 }

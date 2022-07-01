@@ -10,6 +10,7 @@
 /*                       STYLING FOR HEADER                                  */
 /*===========================================================================*/
 .header{
+     font-size:1.5vw;
      display: flex;
      justify-content: space-around;
      padding: 1em;
@@ -100,11 +101,12 @@
 }
 .filter{
      width:70vw;
-     height:70px;
+     /* height:70px; */
      font-family: 'Space Grotesk';
+     font-size: 1.5vw;
      display: flex;
      justify-content: space-around;
-     padding-top: 1.5em;
+     padding: 1.5em;
      margin: auto;
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
      border-radius: 10px;
@@ -127,12 +129,14 @@
 h2.prod{
      color:#0F298B;
      font-family: 'Space Grotesk';
+     font-size:2.5vw;
      position: relative;
      left:10vw;
      margin-top:10vh;
 }
 .wr{
      font-family: 'Space Grotesk';
+     font-size:1.5vw;
      text-align: center;
 }
 .wr h2{

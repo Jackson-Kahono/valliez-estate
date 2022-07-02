@@ -92,13 +92,18 @@
      padding: 1em;
      font-size: 3vw;
 }
-.txt span{
+.description .txt span{
      color:#FAFAFA;
      font-weight: 600;
      padding: 0.5em;
      background-color: #0F298B;
      border-radius: 5px;
 }
+
+
+/*===========================================================================*/
+/*                        STYLING FOR FILTER                                */
+/*===========================================================================*/
 .filter{
      width:70vw;
      /* height:70px; */
@@ -139,26 +144,31 @@ h2.prod{
      font-family: 'Space Grotesk';
      font-size:1.5vw;
      text-align: center;
+     margin-bottom: 3vh;
      
 }
 .wr h2{
      color:#0F298B;
 }
+
+/*===========================================================================*/
+/*                           STYLING FOR CARDS                               */
+/*===========================================================================*/
 .cards{
      font-family: 'Space Grotesk';
-     font-size: 1.5vw;
+     font-size: 1.3vw;
      width:80vw;
      text-align: center;
      display: flex;
      justify-content: space-around;
      margin:auto;
-     
-     
-     
 }
-.cards img{
+.cards div img{
      width:8vw;
-     height:10vw;
+     height:6vw;
+}
+.cards div img:first-child{
+     height:8.5vw;
 }
 .cards div{
      margin:1vh 2vh;
@@ -168,4 +178,33 @@ h2.prod{
 
 .cards div:hover{
      box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+.qual{
+     display:flex;
+     flex-direction: row-reverse;
+     justify-content: space-around;
+     width: 78vw;
+     margin-top:30vh;
+     margin:auto;
+}
+.qual img{
+     width:35vw;
+     height:25vw;
+     margin-top:30vh;
+}
+
+.qual .txt{
+     font-family: 'Space Grotesk';
+     font-size: 1.3vw;
+     padding:5em;
+     margin-top: 25vh;
+}
+
+.qual .txt h2{
+     color: #0F298B;
+     font-weight: 600;
+}
+.qual .txt li{
+     list-style: none;
 }

@@ -207,4 +207,11 @@ h2.prod{
 }
 .qual .txt li{
      list-style: none;
+     margin-bottom: 1em;
+}
+.qual .txt .check{
+     font-weight: 600;
+     display:flex;
+     flex-direction: flex-start;
+     justify-content: space-between;
 }

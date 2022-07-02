@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
-.container{
+.container {
      margin: -7px;
 }
 
@@ -9,61 +9,67 @@
 /*===========================================================================*/
 /*                       STYLING FOR HEADER                                  */
 /*===========================================================================*/
-.header{
-     font-size:1.5vw;
+.header {
+     font-size: 1.5vw;
      display: flex;
      justify-content: space-around;
      padding: 1em;
      font-weight: 600;
 }
-.header div{
+
+.header div {
      display: flex;
      justify-content: space-around;
-    
+
 }
-.header li{
-     list-style:none;
-     margin-right:1em;
+
+.header li {
+     list-style: none;
+     margin-right: 1em;
      margin-left: 1em;
      font-family: 'Space Grotesk';
 }
-.header li:hover{
-     color:#2549D3;
+
+.header li:hover {
+     color: #2549D3;
 }
-.header .name{
+
+.header .name {
      font-family: 'Oleo script';
      font-size: 1.5em;
 }
-.header .btn{
-     color:#FAFAFA;
+
+.header .btn {
+     color: #FAFAFA;
      background-color: #2549D3;
      font-family: 'Space Grotesk';
      padding: 0.7em;
-     border-radius:5px;
+     border-radius: 5px;
 
 
      /* background-color: #0F298B; */
      /* background-color: #FAFAFA; */
 }
-.header .list{
+
+.header .list {
      display: flex;
      justify-content: space-around;
-     padding-top:0.5em;
+     padding-top: 0.5em;
 }
 
 /*===========================================================================*/
 /*                      STYLING FOR DESCRIPTION                              */
 /*===========================================================================*/
-.description{
+.description {
      display: flex;
      justify-content: space-evenly;
      margin-top: 3vh;
-     margin-bottom:10vh;
-     
+     margin-bottom: 10vh;
+
 }
 
-.description div{
-     width:35vw;
+.description div {
+     width: 35vw;
      /* margin: 1em; */
 
 }
@@ -72,28 +78,32 @@
      width:100%;
      height:100%;
 } */
-.description img{
-     width:40vw;
-     height:25vw;
+.description img {
+     width: 40vw;
+     height: 25vw;
      object-fit: fill;
 }
-.description .txt{
+
+.description .txt {
      font-family: 'Space Grotesk';
      font-size: 1.5vw;
 }
-.description .txt p:first-child{
+
+.description .txt p:first-child {
      color: #0F298B;
      font-size: 3vw;
      font-weight: 600;
      word-wrap: break-word;
 }
-.description .txt i{
+
+.description .txt i {
      color: #0F298B;
      padding: 1em;
      font-size: 3vw;
 }
-.description .txt span{
-     color:#FAFAFA;
+
+.description .txt span {
+     color: #FAFAFA;
      font-weight: 600;
      padding: 0.5em;
      background-color: #0F298B;
@@ -104,114 +114,137 @@
 /*===========================================================================*/
 /*                        STYLING FOR FILTER                                */
 /*===========================================================================*/
-.filter{
-     width:70vw;
-     /* height:70px; */
+.filter {
+     width: 70vw;
      font-family: 'Space Grotesk';
      font-size: 1.5vw;
      display: flex;
      justify-content: space-around;
      padding: 1.5em;
      margin: auto;
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
      border-radius: 10px;
 }
-.filter li{
-     list-style:none;
+
+.filter li {
+     list-style: none;
 }
-.filter li:first-child{
+
+.filter li:first-child {
      color: #0F298B;
      font-weight: 600;
 }
-.filter span{
-     color:#FAFAFA;
+.filter li i{
+     margin-left: 0.7em;
+     font-size: 1.5vw;
+}
+.filter span {
+     color: #FAFAFA;
      font-weight: 600;
      padding: 0.5em 3em;
      background-color: #0F298B;
      border-radius: 5px;
 }
 
-h2.prod{
-     color:#0F298B;
+h2.prod {
+     color: #0F298B;
      font-family: 'Space Grotesk';
-     font-size:2.5vw;
+     font-size: 2.5vw;
      position: relative;
-     left:10vw;
-     width:80vw;
-     margin-top:10vh;
+     left: 10vw;
+     width: 80vw;
+     margin-top: 10vh;
 }
-.wr{
+
+.wr {
      font-family: 'Space Grotesk';
-     font-size:1.5vw;
+     font-size: 1.5vw;
      text-align: center;
      margin-bottom: 3vh;
-     
+
 }
-.wr h2{
-     color:#0F298B;
+
+.wr h2 {
+     color: #0F298B;
 }
 
 /*===========================================================================*/
 /*                           STYLING FOR CARDS                               */
 /*===========================================================================*/
-.cards{
+.cards {
      font-family: 'Space Grotesk';
      font-size: 1.3vw;
-     width:80vw;
+     width: 80vw;
      text-align: center;
      display: flex;
      justify-content: space-around;
-     margin:auto;
-}
-.cards div img{
-     width:8vw;
-     height:6vw;
-}
-.cards div img:first-child{
-     height:8.5vw;
-}
-.cards div{
-     margin:1vh 2vh;
-     padding:2em;
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     margin: auto;
 }
 
-.cards div:hover{
-     box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+.cards div img {
+     width: 8vw;
+     height: 6vw;
 }
 
-.qual{
-     display:flex;
+.cards div img:first-child {
+     height: 8.5vw;
+}
+
+.cards div {
+     margin: 1vh 2vh;
+     padding: 2em;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards div:hover {
+     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.qual {
+     display: flex;
      flex-direction: row-reverse;
      justify-content: space-around;
      width: 78vw;
-     margin-top:30vh;
-     margin:auto;
-}
-.qual img{
-     width:35vw;
-     height:25vw;
-     margin-top:30vh;
+     margin-top: 30vh;
+     margin: auto;
 }
 
-.qual .txt{
+.qual .img img {
+     width: 35vw;
+     height: 25vw;
+     margin-top: 30vh;
+}
+
+.qual .txt {
      font-family: 'Space Grotesk';
      font-size: 1.3vw;
-     padding:5em;
+     padding: 5em;
      margin-top: 25vh;
 }
 
-.qual .txt h2{
+.qual .txt h2 {
      color: #0F298B;
      font-weight: 600;
 }
-.qual .txt li{
+
+.qual .txt li {
      list-style: none;
-     margin-bottom: 1em;
+     /* margin-bottom: 1em; */
 }
-.qual .txt .check{
+
+.qual .txt .check {
      font-weight: 600;
-     display:flex;
+     display: flex;
      flex-direction: flex-start;
      justify-content: space-between;
+}
+
+.qual img {
+     color: #0F298B;
+}
+
+.qual .txt .check span {
+     color: red;
+     margin-right: 1em;
+     margin-top: 1em;
 }

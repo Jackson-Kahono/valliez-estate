@@ -5,6 +5,9 @@
      margin: -7px;
 }
 
+li {
+     list-style: none;
+}
 
 /*===========================================================================*/
 /*                       STYLING FOR HEADER                                  */
@@ -32,6 +35,7 @@
 
 .header li:hover {
      color: #2549D3;
+     cursor: pointer;
 }
 
 .header .name {
@@ -45,6 +49,7 @@
      font-family: 'Space Grotesk';
      padding: 0.7em;
      border-radius: 5px;
+     cursor: pointer;
 
 
      /* background-color: #0F298B; */
@@ -96,18 +101,29 @@
      word-wrap: break-word;
 }
 
-.description .txt i {
-     color: #0F298B;
+.description .txt .btns {
+     display: flex;
+     justify-content: space-around;
      padding: 1em;
+}
+
+.description .txt .btns div {
+     color: #0F298B;
+     padding: 0em;
      font-size: 3vw;
 }
 
-.description .txt span {
+.description .txt .btns div:first-child {
      color: #FAFAFA;
      font-weight: 600;
-     padding: 0.5em;
+     height: fit-content;
+     font-size: initial;
+     font-size: 1.5vw;
+     padding: 0.5em 0em;
+     text-align: center;
      background-color: #0F298B;
      border-radius: 5px;
+     margin-right: 1em;
 }
 
 
@@ -134,14 +150,16 @@
      color: #0F298B;
      font-weight: 600;
 }
-.filter li i{
+
+.filter li i {
      margin-left: 0.7em;
      font-size: 1.5vw;
 }
+
 .filter span {
      color: #FAFAFA;
      font-weight: 600;
-     padding: 0.5em 3em;
+     padding: 0.5em 0.2em;
      background-color: #0F298B;
      border-radius: 5px;
 }
@@ -182,12 +200,12 @@ h2.prod {
 }
 
 .cards div img {
-     width: 8vw;
-     height: 6vw;
+     width: 150px;
 }
 
-.cards div img:first-child {
-     height: 8.5vw;
+.cards div:first-child img {
+     width: 80px;
+     height: 100px;
 }
 
 .cards div {
@@ -198,7 +216,12 @@ h2.prod {
 
 .cards div:hover {
      box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+     cursor: pointer;
 }
+
+/*===========================================================================*/
+/*                           STYLING FOR QUAL                               */
+/*===========================================================================*/
 
 .qual {
      display: flex;
@@ -229,7 +252,6 @@ h2.prod {
 
 .qual .txt li {
      list-style: none;
-     /* margin-bottom: 1em; */
 }
 
 .qual .txt .check {
@@ -247,4 +269,173 @@ h2.prod {
      color: red;
      margin-right: 1em;
      margin-top: 1em;
+}
+
+
+/*===========================================================================*/
+/*                         STYLING FOR PROPERTIES                            */
+/*===========================================================================*/
+.properties {
+     font-family: 'Space Grotesk';
+     margin-top: 10vh;
+}
+
+.properties h2 {
+     text-align: center;
+     color: #0F298B;
+     font-weight: 800;
+}
+
+.properties p {
+     text-align: center;
+}
+
+.properties-cards {
+     display: flex;
+     justify-content: space-around;
+     width: 85vw;
+     margin: auto;
+}
+
+.properties-cards img {
+     width: 25vw;
+     height: 25vh;
+}
+
+.properties-cards div div h3 {
+     font-weight: 600;
+}
+
+.properties-desc {
+     display: flex;
+     justify-content: space-between;
+     padding: 0em 1em;
+}
+
+.properties-desc li {
+     margin-top: 0.5em;
+     list-style: none;
+}
+
+.properties-desc div:first-child li:first-child {
+     font-weight: 600;
+}
+
+.properties-desc div:last-child li:last-child {
+     color: #0F298B;
+}
+
+.view-more {
+     color: #FAFAFA;
+     font-family: 'Space Grotesk';
+     font-size: 1.3vw;
+     background-color: #2549D3;
+     margin-top: 3vh;
+     padding: 0.5em 1em;
+     width: fit-content;
+     height: fit-content;
+     border-radius: 5px;
+     float: right;
+     margin-right: 20vh;
+}
+
+.view-more:hover {
+     cursor: pointer;
+     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.properties-div {
+     border-radius: 10px;
+     box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.properties-div:hover {
+     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+}
+
+
+/*===========================================================================*/
+/*                           STYLING FOR CUSTOMERS                           */
+/*===========================================================================*/
+.customers {
+     font-family: 'Space Grotesk';
+     font-size: 1.4vw;
+     font-weight: 500;
+     margin-top: 50vh;
+     text-align: center;
+
+}
+
+.customers h2 {
+     font-weight: 1200;
+     color: #0F298B;
+}
+
+.customers p:first-child {
+     font-weight: 600;
+}
+
+.customers-body {
+     display: flex;
+     justify-content: space-around;
+     width: 85vw;
+     margin: auto;
+}
+
+.customers-card {
+     text-align: start;
+     font-size: 1vw;
+     width: 25vw;
+     box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.1);
+     border-radius: 5px;
+     padding: 0.5em;
+     margin-top: 1em;
+}
+
+.customers-card h3 {
+     font-style: bold;
+     font-size: 1.3vw;
+}
+
+.customers-card li {
+     margin-top: -10px;
+     font-weight: 600;
+}
+
+.customers-card p {
+     font-size: 1.2vw;
+}
+
+.customers-card:hover {
+     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+}
+
+
+/*===========================================================================*/
+/*                           STYLING FOR FOOTER                               */
+/*===========================================================================*/
+.footer {
+     color: #FAFAFA;
+     font-family: 'Space Grotesk';
+     font-weight: 600;
+     margin-top: 50vh;
+     height: 50vh;
+     background-color: #2549D3;
+     display: flex;
+     justify-content: space-around;
+     padding-top: 3em;
+}
+
+.footer-estate h2 {
+     font-family: 'Oleo Script';
+}
+
+.footer div {
+     width: 20vw;
+}
+
+.footer-data li {
+     margin: 0.5em 0em;
 }

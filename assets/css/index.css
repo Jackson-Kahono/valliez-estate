@@ -395,9 +395,3 @@ h2.prod {
 .footer-data li {
   margin: 0.5em 0em;
 }
-@media (min-width: 1240px) {
-  .container {
-    max-width: 1290px !important;
-    margin: auto !important;
-  }
-}

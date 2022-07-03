@@ -32,6 +32,7 @@
 
 .header li:hover {
      color: #2549D3;
+     cursor: pointer;
 }
 
 .header .name {
@@ -45,6 +46,7 @@
      font-family: 'Space Grotesk';
      padding: 0.7em;
      border-radius: 5px;
+     cursor: pointer;
 
 
      /* background-color: #0F298B; */
@@ -95,19 +97,28 @@
      font-weight: 600;
      word-wrap: break-word;
 }
-
-.description .txt i {
-     color: #0F298B;
+.description .txt .btns{
+     display: flex;
+     justify-content: space-around;
      padding: 1em;
+}
+.description .txt .btns div {
+     color: #0F298B;
+     padding: 0em;
      font-size: 3vw;
 }
 
-.description .txt span {
+.description .txt .btns div:first-child {
      color: #FAFAFA;
      font-weight: 600;
-     padding: 0.5em;
+     height: fit-content;
+     font-size: initial;
+     font-size: 1.5vw;
+     padding: 0.5em 0em;
+     text-align: center;
      background-color: #0F298B;
      border-radius: 5px;
+     margin-right: 1em;
 }
 
 
@@ -181,15 +192,21 @@ h2.prod {
      margin: auto;
 }
 
-.cards div img {
+/* .cards div img {
      width: 8vw;
      height: 6vw;
 }
 
 .cards div img:first-child {
      height: 8.5vw;
+} */
+.cards div img{
+     width:150px;
 }
-
+.cards div:first-child img{
+     width:80px;
+     height:100px;
+}
 .cards div {
      margin: 1vh 2vh;
      padding: 2em;
@@ -198,6 +215,7 @@ h2.prod {
 
 .cards div:hover {
      box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+     cursor: pointer;
 }
 
 .qual {
@@ -247,4 +265,73 @@ h2.prod {
      color: red;
      margin-right: 1em;
      margin-top: 1em;
+}
+
+
+.properties{
+     font-family: 'Space Grotesk';
+     margin-top: 10vh;
+}
+.properties h2{
+     text-align: center;
+     color: #0F298B;
+     font-weight: 800;
+}
+.properties p{
+     text-align: center;
+}
+.properties-cards{
+     display: flex;
+     justify-content: space-around;
+     width:85vw;
+     margin:auto;
+}
+.properties-cards img{
+     width:25vw;
+     height: 25vh;
+}
+
+.properties-cards div div h3{
+     font-weight: 600;
+}
+.properties-desc{
+     display: flex;
+     justify-content: space-between;
+     padding: 0em 1em;
+}
+.properties-desc li{
+     margin-top: 0.5em;
+     list-style: none;
+}
+
+.properties-desc div:first-child li:first-child{
+     font-weight: 600;
+}
+.properties-desc div:last-child li:last-child{
+     color: #0F298B;
+}
+.view-more{
+     color: #FAFAFA;
+     font-family: 'Space Grotesk';
+     font-size: 1.3vw;
+     background-color: #2549D3;
+     margin-top:3vh;
+     padding: 0.5em 1em;
+     width: fit-content;
+     height: fit-content;
+     border-radius: 5px;
+     float: right;
+     margin-right: 20vh;
+}
+.view-more:hover{
+     cursor: pointer;
+     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+}
+.properties-div{
+     border-radius: 10px;
+     box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.properties-div:hover{
+     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+     cursor: pointer;
 }

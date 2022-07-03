@@ -417,5 +417,6 @@ h2.prod {
 @media (min-width:1240px){
      .container{
           max-width: 1290px !important;
+          margin: auto !important;
      }
 }

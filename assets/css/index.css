@@ -4,7 +4,9 @@
 .container {
      margin: -7px;
 }
-
+li{
+     list-style: none;
+}
 
 /*===========================================================================*/
 /*                       STYLING FOR HEADER                                  */
@@ -332,6 +334,50 @@ h2.prod {
      box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2);
 }
 .properties-div:hover{
+     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+}
+
+.customers{
+     font-family: 'Space Grotesk';
+     font-size: 1.4vw;
+     font-weight: 500;
+     margin-top: 50vh;
+     text-align: center;
+
+}
+
+.customers h2{
+     font-weight: 1200;
+     color: #0F298B;
+}
+.customers-body{
+     display: flex;
+     justify-content: space-around;
+     width:85vw;
+     margin:auto;
+}
+.customers-card{
+     text-align: start;
+     font-size: 1vw;
+     width:25vw;
+     box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.1);
+     border-radius: 5px;
+     padding: 0.5em;
+     margin-top: 1em;
+}
+.customers-card h3{
+     font-style: bold;
+     font-size: 1.3vw;
+}
+.customers-card li{
+     margin-top: -10px;
+     font-weight: 600;
+}
+.customers-card p{
+     font-size:1.2vw;
+}
+.customers-card:hover{
      box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
      cursor: pointer;
 }

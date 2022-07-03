@@ -1,13 +1,27 @@
 # valliez-estate
 `Valliez Estate` Helping you find a home of your dreams😜
 
-## CONTRIBUTORS
+## AUTHOR
      
      Jackson-Kahono
 
 ## TECHNOLOGIES
      HTML
      CSS
+
+## ABOUT Valliez Estate
+
+This is a system to help you look for a house or land to purchase or to rent.
+
+## SETUP
+```bash
+git clone https://github.com/Jackson-Kahono/valliez-estate.git
+```
+
+## DEPLOYMENT
+
+https://Jackson-Kahono.github.io/valliez-estate
+
 
 ### LICENSE
      MIT License
@@ -32,5 +46,5 @@
      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
      SOFTWARE.
 
-
+Copyright (c) 2022 Jackson Kahono
 

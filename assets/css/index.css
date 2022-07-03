@@ -4,7 +4,8 @@
 .container {
      margin: -7px;
 }
-li{
+
+li {
      list-style: none;
 }
 
@@ -99,11 +100,13 @@ li{
      font-weight: 600;
      word-wrap: break-word;
 }
-.description .txt .btns{
+
+.description .txt .btns {
      display: flex;
      justify-content: space-around;
      padding: 1em;
 }
+
 .description .txt .btns div {
      color: #0F298B;
      padding: 0em;
@@ -147,10 +150,12 @@ li{
      color: #0F298B;
      font-weight: 600;
 }
-.filter li i{
+
+.filter li i {
      margin-left: 0.7em;
      font-size: 1.5vw;
 }
+
 .filter span {
      color: #FAFAFA;
      font-weight: 600;
@@ -194,21 +199,15 @@ h2.prod {
      margin: auto;
 }
 
-/* .cards div img {
-     width: 8vw;
-     height: 6vw;
+.cards div img {
+     width: 150px;
 }
 
-.cards div img:first-child {
-     height: 8.5vw;
-} */
-.cards div img{
-     width:150px;
+.cards div:first-child img {
+     width: 80px;
+     height: 100px;
 }
-.cards div:first-child img{
-     width:80px;
-     height:100px;
-}
+
 .cards div {
      margin: 1vh 2vh;
      padding: 2em;
@@ -219,6 +218,10 @@ h2.prod {
      box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
      cursor: pointer;
 }
+
+/*===========================================================================*/
+/*                           STYLING FOR QUAL                               */
+/*===========================================================================*/
 
 .qual {
      display: flex;
@@ -249,7 +252,6 @@ h2.prod {
 
 .qual .txt li {
      list-style: none;
-     /* margin-bottom: 1em; */
 }
 
 .qual .txt .check {
@@ -270,54 +272,65 @@ h2.prod {
 }
 
 
-.properties{
+/*===========================================================================*/
+/*                         STYLING FOR PROPERTIES                            */
+/*===========================================================================*/
+.properties {
      font-family: 'Space Grotesk';
      margin-top: 10vh;
 }
-.properties h2{
+
+.properties h2 {
      text-align: center;
      color: #0F298B;
      font-weight: 800;
 }
-.properties p{
+
+.properties p {
      text-align: center;
 }
-.properties-cards{
+
+.properties-cards {
      display: flex;
      justify-content: space-around;
-     width:85vw;
-     margin:auto;
+     width: 85vw;
+     margin: auto;
 }
-.properties-cards img{
-     width:25vw;
+
+.properties-cards img {
+     width: 25vw;
      height: 25vh;
 }
 
-.properties-cards div div h3{
+.properties-cards div div h3 {
      font-weight: 600;
 }
-.properties-desc{
+
+.properties-desc {
      display: flex;
      justify-content: space-between;
      padding: 0em 1em;
 }
-.properties-desc li{
+
+.properties-desc li {
      margin-top: 0.5em;
      list-style: none;
 }
 
-.properties-desc div:first-child li:first-child{
+.properties-desc div:first-child li:first-child {
      font-weight: 600;
 }
-.properties-desc div:last-child li:last-child{
+
+.properties-desc div:last-child li:last-child {
      color: #0F298B;
 }
-.view-more{
+
+.view-more {
      color: #FAFAFA;
      font-family: 'Space Grotesk';
      font-size: 1.3vw;
      background-color: #2549D3;
-     margin-top:3vh;
+     margin-top: 3vh;
      padding: 0.5em 1em;
      width: fit-content;
      height: fit-content;
@@ -325,20 +338,27 @@ h2.prod {
      float: right;
      margin-right: 20vh;
 }
-.view-more:hover{
+
+.view-more:hover {
      cursor: pointer;
      box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
 }
-.properties-div{
+
+.properties-div {
      border-radius: 10px;
      box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2);
 }
-.properties-div:hover{
+
+.properties-div:hover {
      box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
      cursor: pointer;
 }
 
-.customers{
+
+/*===========================================================================*/
+/*                           STYLING FOR CUSTOMERS                           */
+/*===========================================================================*/
+.customers {
      font-family: 'Space Grotesk';
      font-size: 1.4vw;
      font-weight: 500;
@@ -347,59 +367,75 @@ h2.prod {
 
 }
 
-.customers h2{
+.customers h2 {
      font-weight: 1200;
      color: #0F298B;
 }
-.customers-body{
+
+.customers p:first-child {
+     font-weight: 600;
+}
+
+.customers-body {
      display: flex;
      justify-content: space-around;
-     width:85vw;
-     margin:auto;
+     width: 85vw;
+     margin: auto;
 }
-.customers-card{
+
+.customers-card {
      text-align: start;
      font-size: 1vw;
-     width:25vw;
+     width: 25vw;
      box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.1);
      border-radius: 5px;
      padding: 0.5em;
      margin-top: 1em;
 }
-.customers-card h3{
+
+.customers-card h3 {
      font-style: bold;
      font-size: 1.3vw;
 }
-.customers-card li{
+
+.customers-card li {
      margin-top: -10px;
      font-weight: 600;
 }
-.customers-card p{
-     font-size:1.2vw;
+
+.customers-card p {
+     font-size: 1.2vw;
 }
-.customers-card:hover{
+
+.customers-card:hover {
      box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
      cursor: pointer;
 }
 
-.footer{
+
+/*===========================================================================*/
+/*                           STYLING FOR FOOTER                               */
+/*===========================================================================*/
+.footer {
      color: #FAFAFA;
      font-family: 'Space Grotesk';
      font-weight: 600;
      margin-top: 50vh;
-     height:50vh;
+     height: 50vh;
      background-color: #2549D3;
      display: flex;
      justify-content: space-around;
-     padding-top:3em;
-}
-.footer-estate h2{
-     font-family: 'Oleo Script';
-}
-.footer div{
-     width:20vw;
+     padding-top: 3em;
 }
 
-.footer-data li{
-     margin:0.5em 0em;
+.footer-estate h2 {
+     font-family: 'Oleo Script';
+}
+
+.footer div {
+     width: 20vw;
+}
+
+.footer-data li {
+     margin: 0.5em 0em;
 }

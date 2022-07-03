@@ -381,3 +381,25 @@ h2.prod {
      box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
      cursor: pointer;
 }
+
+.footer{
+     color: #FAFAFA;
+     font-family: 'Space Grotesk';
+     font-weight: 600;
+     margin-top: 50vh;
+     height:50vh;
+     background-color: #2549D3;
+     display: flex;
+     justify-content: space-around;
+     padding-top:3em;
+}
+.footer-estate h2{
+     font-family: 'Oleo Script';
+}
+.footer div{
+     width:20vw;
+}
+
+.footer-data li{
+     margin:0.5em 0em;
+}
